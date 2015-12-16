@@ -9,5 +9,6 @@
 ##达到熟悉级别的基础  
 *我目前应该在这个级别*
 * [php基础语法](https://php.net 'php基础语法')  
+* [php trait](http://www.php.net/manual/zh/language.oop5.traits.php 'php trait')  
 * [OOP程序设计](https://en.wikipedia.org/wiki/OOP 'OOP')  
 * [设计模式](https://en.wikipedia.org/wiki/Design_pattern '设计模式')  
