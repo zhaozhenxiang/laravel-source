@@ -449,7 +449,7 @@ if (! function_exists('dd')) {
             (new Dumper)->dump($x);
         }, func_get_args());
 
-        die(1);
+//        die(1);
     }
 }
 

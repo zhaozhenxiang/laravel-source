@@ -11,6 +11,17 @@
 |
 */
 
-Route::get('/', function () {
+$route = app()['router'];
+require_once app_path('Http/Routes/local.php');
+require_once app_path('Http/Routes/product.php');
+require_once app_path('Http/Routes/test.php');
+
+$route->get('/', ['middleware' => 'CreateStaticHtmlFile', function () {
     return view('welcome');
-});
+}]);
+$route->get('/{id}', ['middleware' => 'CreateStaticHtmlFile', function ($id) {
+    return view('welcome');
+}]);
+$route->get('/index', ['middleware' => 'CreateStaticHtmlFile', function () {
+    return view('welcome');
+}]);

@@ -228,4 +228,41 @@ abstract class Facade
                 return call_user_func_array([$instance, $method], $args);
         }
     }
+
+    /**
+     * @date 2015/12/16 14:20
+     * @idea 为什么laravel作者不建立这个魔术方法呢？难道是强调facade的使用方式必须为::这种吗？
+     * @power 配置__call魔术方法
+     * @param $method
+     * @param $args
+     * @return mixed
+     */
+    public function __call($method, $args)
+    {
+        $instance = static::getFacadeRoot();
+
+        if (! $instance) {
+            throw new RuntimeException('A facade root has not been set.');
+        }
+
+        switch (count($args)) {
+            case 0:
+                return $instance->$method();
+
+            case 1:
+                return $instance->$method($args[0]);
+
+            case 2:
+                return $instance->$method($args[0], $args[1]);
+
+            case 3:
+                return $instance->$method($args[0], $args[1], $args[2]);
+
+            case 4:
+                return $instance->$method($args[0], $args[1], $args[2], $args[3]);
+
+            default:
+                return call_user_func_array([$instance, $method], $args);
+        }
+    }
 }
