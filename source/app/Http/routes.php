@@ -19,6 +19,9 @@ require_once app_path('Http/Routes/test.php');
 $route->get('/', ['middleware' => 'CreateStaticHtmlFile', function () {
     return view('welcome');
 }]);
+$route->get('/', function () {
+    return view('welcome');
+});
 $route->get('/{id}', ['middleware' => 'CreateStaticHtmlFile', function ($id) {
     return view('welcome');
 }]);
