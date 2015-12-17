@@ -8,6 +8,7 @@
 namespace App\Http\Middleware;
 
 use Closure;
+use Illuminate\Support\Facades\Storage;
 
 class CreateStaticHtmlFile
 {
@@ -35,7 +36,18 @@ class CreateStaticHtmlFile
      */
     public function handle($request, Closure $next)
     {
-        $response = $next($request);
-//        dd($response->getContent());
+        $path = $request->path();
+        $storage = new Storage();
+
+        if (is_file(storage_path('app/' . $path))) {
+             $response = response($storage->disk('local')->get($path));
+        } else {
+            $response = $next($request);
+            $storage->disk('local')->put($path, $response . '<!--date' . date('Y-m-d H:i:s', intval(LARAVEL_START)) . '-->');
+        }
+        unset($storage);
+        return $response;
     }
+
+
 }
