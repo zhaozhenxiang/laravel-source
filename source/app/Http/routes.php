@@ -19,12 +19,12 @@ require_once app_path('Http/Routes/test.php');
 $route->get('/', ['middleware' => 'CreateStaticHtmlFile', function () {
     return view('welcome');
 }]);
-$route->get('/', function () {
-    return view('welcome');
-});
+$route->get('/get', ['middleware' => 'CreateStaticHtmlFile', 'uses' => 'Local\Index@index']);
+$route->post('/post', ['middleware' => 'CreateStaticHtmlFile', 'uses' => 'Local\Index@index']);
+//$route->get('/', function () {
+//    return view('welcome');
+//});
 $route->get('/{id}', ['middleware' => 'CreateStaticHtmlFile', function ($id) {
     return view('welcome');
 }]);
-$route->get('/index', ['middleware' => 'CreateStaticHtmlFile', function () {
-    return view('welcome');
-}]);
+
