@@ -231,8 +231,8 @@ abstract class Facade
 
     /**
      * @date 2015/12/16 14:20
-     * @idea 为什么laravel作者不建立这个魔术方法呢？难道是强调facade的使用方式必须为::这种吗？
-     * @power 配置__call魔术方法
+     * @idea 涓轰粈涔坙aravel浣滆�呬笉寤虹珛杩欎釜榄旀湳鏂规硶鍛紵闅鹃亾鏄己璋僨acade鐨勪娇鐢ㄦ柟寮忓繀椤讳负::杩欑鍚楋紵
+     * @power 閰嶇疆__call榄旀湳鏂规硶
      * @param $method
      * @param $args
      * @return mixed
@@ -244,11 +244,9 @@ abstract class Facade
         if (! $instance) {
             throw new RuntimeException('A facade root has not been set.');
         }
-
         switch (count($args)) {
             case 0:
                 return $instance->$method();
-
             case 1:
                 return $instance->$method($args[0]);
 

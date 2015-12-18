@@ -30,3 +30,36 @@ $route->get('env', function(){
 $route->get('config', function(){
     dd(app()['config']);
 });
+
+$route->get('job', function(){
+    $request = app()['request'];
+    return app('Illuminate\Contracts\Bus\Dispatcher')->dispatch(new \App\Jobs\StaticCache($request, function($a){dd($a);}));
+});
+
+$route->get('delete', function(){
+    app()->bind('storage', function(){
+        return new Storage();
+    });
+
+    dd(app()['storage']->disk('local')->delete('/1'));
+});
+
+$route->get('path', function(){
+    dd(app()['request']->path());
+});
+
+$route->get('env', function(){
+    $dir = !empty(env('STATIC_PATH')) ? base_path(env('STATIC_PATH')) : storage_path('app');
+    dd($dir);
+});
+
+$route->get('/pathinfo', function(){
+    $path = '/aa/bb';
+    dd(pathinfo($path));
+    dd(dirname($path));
+    dd(basename($path));
+});
+
+$route->get('redis', function(){
+    (new Redis1())->set('a', 'ada');
+});

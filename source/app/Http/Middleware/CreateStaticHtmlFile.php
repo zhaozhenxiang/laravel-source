@@ -1,30 +1,23 @@
 <?php
 
 /**
- * @idea ÏÖÔÚ¾²Ì¬ÎÄ¼þÀàÐÍµÄcachedÊÇºÜÉÙÊýµÄ£¬¸ÃÒ³ÃæÖ»ÊÊºÏä¯ÀÀÐÔÒ³Ãæ
- * @idea ÎÒÃÇÈÏÎªÂ·ÓÉÖÐÃ»ÓÐ²ÎÊýµÄÂ·ÓÉÓ¦¸Ã²»º¬ÓÐDB²Ù×÷£¨¸ÃÏìÓ¦²»»á´ÓDBÖÐ¶ÁÈ¡Êý¾ÝÐ´Èëµ½viewÖÐ£©
- * @idea ÎÒÃÇÈÏÎªÂ·ÓÉÖÐÓÐ²ÎÊýµÄÂ·ÓÉÓ¦¸Ãº¬ÓÐDB²Ù×÷£¨¸ÃÏîÄ¿»á´ÓDBÖÐ¶ÁÈ¡Êý¾ÝÐ´Èëµ½viewÖÐ£©
+ * @idea çŽ°åœ¨é™æ€æ–‡ä»¶ç±»åž‹çš„cachedæ˜¯å¾ˆå°‘æ•°çš„ï¼Œè¯¥é¡µé¢åªé€‚åˆæµè§ˆæ€§é¡µé¢
+ * @idea æˆ‘ä»¬è®¤ä¸ºè·¯ç”±ä¸­æ²¡æœ‰å‚æ•°çš„è·¯ç”±åº”è¯¥ä¸å«æœ‰DBæ“ä½œï¼ˆè¯¥å“åº”ä¸ä¼šä»ŽDBä¸­è¯»å–æ•°æ®å†™å…¥åˆ°viewä¸­ï¼‰
+ * @idea æˆ‘ä»¬è®¤ä¸ºè·¯ç”±ä¸­æœ‰å‚æ•°çš„è·¯ç”±åº”è¯¥å«æœ‰DBæ“ä½œï¼ˆè¯¥é¡¹ç›®ä¼šä»ŽDBä¸­è¯»å–æ•°æ®å†™å…¥åˆ°viewä¸­ï¼‰
  */
 namespace App\Http\Middleware;
 
 use Closure;
-use Illuminate\Support\Facades\Storage;
 
 class CreateStaticHtmlFile
 {
-
-
     /**
-     * @power ÇëÇó½øÈë¸Ã¹¹Ôìº¯Êý£¬¸Ãº¯ÊýÅÐ¶ÏÇëÇóÓ¦¸Ã½øÈëlaravel»¹ÊÇlaravelµÄstorageÏÂµÄÒ»¸öÎÄ¼þ£¬Èô½øÈëÎÄ¼þÕâ±íÃ÷¸ÃÎÄ¼þÃ»ÓÐÊ§Ð§£¬Èç¹û¸ÃÎÄ¼þ²»´æÔÚÕâ½øÈëlaravel²¢Éú²úÎÄ¼þ
+     * @power è¯·æ±‚è¿›å…¥è¯¥æž„é€ å‡½æ•°ï¼Œè¯¥å‡½æ•°åˆ¤æ–­è¯·æ±‚åº”è¯¥è¿›å…¥laravelè¿˜æ˜¯laravelçš„storageä¸‹çš„ä¸€ä¸ªæ–‡ä»¶ï¼Œè‹¥è¿›å…¥æ–‡ä»¶è¿™è¡¨æ˜Žè¯¥æ–‡ä»¶æ²¡æœ‰å¤±æ•ˆï¼Œå¦‚æžœè¯¥æ–‡ä»¶ä¸å­˜åœ¨è¿™è¿›å…¥laravelå¹¶ç”Ÿäº§æ–‡ä»¶
      * @return void
      */
     public function __construct()
     {
-//        $storage->disk('local')->put(__LINE__ . '.html', __LINE__);
-//        dd($storage == app()['filesystem']);
-//        die;
-//        \Illuminate\Support\Facades\Storage::disk('local')->put(__LINE__ . '.html', __LINE__);
-//        dd($filesystem->put('1.html', '22'));
+
     }
 
     /**
@@ -36,103 +29,25 @@ class CreateStaticHtmlFile
      */
     public function handle($request, Closure $next)
     {
-        app()->bind('storage', function(){
-            return new Storage();
-        });
-        $this->delete();
-        //ÎÒÃÇÈÏÎªgetÇëÇóÊÇÀ´Éú³ÉÎÄ¼þµÄ
-        //@todo ¿ÉÒÔ°Ñget post ºÏ²¢µ½Ò»¸öº¯ÊýÖÐ¡£ Ê¹ÓÃlaravelµÄÈÎÎñµ÷¶ÈÀ´Ê¹ÎÄ¼þ¹ýÆÚµô(delete)
-        //@todo ¿ÉÒÔÊ¹ÓÃ×¢ÊÍÀ´ÉèÖÃÒ»ÏÂÐÅÏ¢£º¹ýÆÚÊ±¼ä¡¢Ê¹ÓÃÊ²Ã´cachedriver
-        switch (strtolower($request->method())) {
-            case 'get':
-                return $this->create($request, $request, $next);
-                break;
-            default:
-                $this->delete($request);
-                break;
+        if (TRUE != env('STATIC_CACHED')) {
+            return $next($request);
         }
-        return $next($request);
+
+        return $this->cached($request, $next);
     }
 
     /**
-     * @return \Illuminate\Contracts\Routing\ResponseFactory|\Symfony\Component\HttpFoundation\Response
+     * @power ä½¿ç”¨cached
+     * @return Response
      */
-    private function create($request, $request, $next)
+    private function cached($request, Closure $closure)
     {
-        $path = $request->path();
-        $storage = app()['storage'];
-
-        if (is_file(storage_path('app/' . $path))) {
-            $response = response($storage->disk('local')->get($path));
-        } else {
-            $response = $next($request);
-            $storage->disk('local')->put($path, $response . '<!--date' . date('Y-m-d H:i:s', intval(LARAVEL_START)) . '-->');
-        }
-        unset($storage);
-        return $response;
-    }
-
-    /**
-     * @power ÅÐ¶ÏÊÇ·ñÐèÒªÈ¥deleteµôÒ»¸öÎÄ¼þ
-     * @return bool
-     */
-    private function delete()
-    {
-        //»ñÈ¡routerÀàÊµÀý
-        $router = app()['router'];
-        //»ñÈ¡µ±Ç°routeÊµÀý
-        $route = app()['router']->current();
-
-        /*        //ÕâÒ»²½Ò²¿ÉÒÔ²»ÅÐ¶Ï
-                if (in_array('GET', $route->getMethods()) || in_array('get', $route->getMethods()) ) {
-                    return FALSE;
-                }*/
-
-        //»ñÈ¡µ±Ç°actionÐÅÏ¢
-        /**ÐÎÈç
-        array:6 [¨‹
-        "middleware" => "CreateStaticHtmlFile"
-        0 => Closure {#107 ?}
-        "uses" => Closure {#107 ?}
-        "namespace" => "App\Http\Controllers"
-        "prefix" => null
-        "where" => []
-        ]
-         */
-        $action = $route->getAction();
-
-        if (!is_string($action['uses'])) {
-            return FALSE;
+        //envä¸­STATIC_CACHEDåº”è¯¥ä¸ºboolç±»åž‹ã€‚trueä»£è¡¨ä½¿ç”¨é™æ€ç¼“å­˜æ–‡ä»¶
+        if (TRUE != env('STATIC_CACHED')) {
+            return $closure($request);
         }
 
-        list($class, $method) = explode('@', $action['uses']);
-
-        //·´Éäµ½class
-        //@help http://php.net/manual/en/class.reflectionclass.php
-        $classer = new \ReflectionClass($class);
-        //»ñÈ¡methods
-        //@help http://php.net/manual/zh/class.reflectionmethod.php
-        $methoder = $classer->getMethod($method);
-        //»ñÈ¡·½·¨µÄ×¢ÊÍ
-        $doc = $methoder->getDocComment();
-
-        /*        //½âÎö·½·¨×¢ÊÍ
-                $array = explode('@expire:', $doc);
-
-                if (2 == count($array)) {
-                    return $array;
-                }*/
-
-        preg_match('/(?<=\@expire:date=).+?(?=\n+)/', $doc, $out);
-
-        if (!is_array($out)) {
-            return FALSE;
-        }
-
-        //É¾³ý²Ù×÷
-        if (strtotime($out[0]) <= LARAVEL_START) {
-            return app()['storage']->disk('local')->delete($route->getUri());
-        }
+        return app('Illuminate\Contracts\Bus\Dispatcher')->dispatch(new \App\Jobs\StaticCache($request, $closure));
     }
 
 }
