@@ -83,21 +83,21 @@ class CreateStaticHtmlFile
         //获取当前route实例
         $route = app()['router']->current();
 
-/*        //这一步也可以不判断
-        if (in_array('GET', $route->getMethods()) || in_array('get', $route->getMethods()) ) {
-            return FALSE;
-        }*/
+        /*        //这一步也可以不判断
+                if (in_array('GET', $route->getMethods()) || in_array('get', $route->getMethods()) ) {
+                    return FALSE;
+                }*/
 
         //获取当前action信息
         /**形如
-         array:6 [▼
-            "middleware" => "CreateStaticHtmlFile"
-            0 => Closure {#107 ?}
-            "uses" => Closure {#107 ?}
-            "namespace" => "App\Http\Controllers"
-            "prefix" => null
-            "where" => []
-            ]
+        array:6 [▼
+        "middleware" => "CreateStaticHtmlFile"
+        0 => Closure {#107 ?}
+        "uses" => Closure {#107 ?}
+        "namespace" => "App\Http\Controllers"
+        "prefix" => null
+        "where" => []
+        ]
          */
         $action = $route->getAction();
 
@@ -116,12 +116,12 @@ class CreateStaticHtmlFile
         //获取方法的注释
         $doc = $methoder->getDocComment();
 
-/*        //解析方法注释
-        $array = explode('@expire:', $doc);
+        /*        //解析方法注释
+                $array = explode('@expire:', $doc);
 
-        if (2 == count($array)) {
-            return $array;
-        }*/
+                if (2 == count($array)) {
+                    return $array;
+                }*/
 
         preg_match('/(?<=\@expire:date=).+?(?=\n+)/', $doc, $out);
 
@@ -134,6 +134,5 @@ class CreateStaticHtmlFile
             return app()['storage']->disk('local')->delete($route->getUri());
         }
     }
-
 
 }
