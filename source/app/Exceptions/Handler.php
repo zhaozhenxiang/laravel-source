@@ -44,7 +44,11 @@ class Handler extends ExceptionHandler
     {
         if ($e instanceof ModelNotFoundException) {
             $e = new NotFoundHttpException($e->getMessage(), $e);
+        }  elseif ($e instanceof HttpException && 404 == $e->getStatusCode() && UrlisPic()) {
+            \Log::error('{系统错误:资源图片' . $request->path() . '找不到}');
+            return response(\Illuminate\Support\Facades\File::get(public_path('static/v1/images/404.png')), 404, ['Content-type' => 'image/png']);
         }
+
 
         return parent::render($request, $e);
     }

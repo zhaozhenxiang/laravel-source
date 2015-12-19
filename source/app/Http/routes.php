@@ -24,7 +24,7 @@ $route->post('/post', ['middleware' => 'CreateStaticHtmlFile', 'uses' => 'Local\
 //$route->get('/', function () {
 //    return view('welcome');
 //});
-$route->get('/{id}', ['middleware' => 'CreateStaticHtmlFile', function ($id) {
-    return view('welcome');
-}]);
+//$route->get('/{id}', ['middleware' => 'CreateStaticHtmlFile', function ($id) {
+//    return view('welcome');
+//}]);
 

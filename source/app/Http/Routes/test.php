@@ -63,3 +63,7 @@ $route->get('/pathinfo', function(){
 $route->get('redis', function(){
     (new Redis1())->set('a', 'ada');
 });
+
+$route->get('png', function(){
+    dd(isPic('11.png'));
+});
