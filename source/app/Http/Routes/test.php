@@ -67,3 +67,14 @@ $route->get('redis', function(){
 $route->get('png', function(){
     dd(isPic('11.png'));
 });
+
+$route->get('orm', function(){
+    $a = new \App\Cached();
+    dd($a->first()->getID());
+});
+
+$route->get('insert', function(){
+//    $a = new \App\Cached();
+//    dd($a->insert(['path' => 'test', 'content' => 'test']));
+    dd(\App\Cached::insert(['path' => 'test1', 'content' => 'test1']));
+});

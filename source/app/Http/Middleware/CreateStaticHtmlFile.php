@@ -46,7 +46,7 @@ class CreateStaticHtmlFile
         if (TRUE != env('STATIC_CACHED')) {
             return $closure($request);
         }
-
+        //触发job
         return app('Illuminate\Contracts\Bus\Dispatcher')->dispatch(new \App\Jobs\StaticCache($request, $closure));
     }
 
