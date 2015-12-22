@@ -18,7 +18,10 @@
 | loading any of our classes later on. It feels nice to relax.
 |
 */
-
+/**
+ * @power 加载启动器
+ * @date 2015/12/22
+ */
 require __DIR__.'/../bootstrap/autoload.php';
 
 /*

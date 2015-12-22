@@ -13,7 +13,10 @@ define('LARAVEL_START', microtime(true));
 | loading of any our classes "manually". Feels great to relax.
 |
 */
-
+/**
+ * @power 加载composer
+ * @date 2015/12/22
+ */
 require __DIR__.'/../vendor/autoload.php';
 
 /*
@@ -27,6 +30,10 @@ require __DIR__.'/../vendor/autoload.php';
 |
 */
 
+/**
+ * @power 加载编译php代码，该文件由laravel生成。目前还不知道它生成的时机和原理
+ * @date 2015/12/22
+ */
 $compiledPath = __DIR__.'/cache/compiled.php';
 
 if (file_exists($compiledPath)) {

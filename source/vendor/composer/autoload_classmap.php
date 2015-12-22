@@ -6,9 +6,13 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
+    'App\\Cached' => $baseDir . '/app/Cached.php',
     'App\\Console\\Commands\\Inspire' => $baseDir . '/app/Console/Commands/Inspire.php',
     'App\\Console\\Kernel' => $baseDir . '/app/Console/Kernel.php',
     'App\\Events\\Event' => $baseDir . '/app/Events/Event.php',
+    'App\\Events\\StaticCache\\DBHandler' => $baseDir . '/app/Listeners/StaticCache/DBHandler.php',
+    'App\\Events\\StaticCache\\FileHandler' => $baseDir . '/app/Listeners/StaticCache/FileHandler.php',
+    'App\\Events\\StaticCache\\StaticCache' => $baseDir . '/app/Listeners/StaticCache/StaticCache.php',
     'App\\Exceptions\\Handler' => $baseDir . '/app/Exceptions/Handler.php',
     'App\\Http\\Controllers\\Auth\\AuthController' => $baseDir . '/app/Http/Controllers/Auth/AuthController.php',
     'App\\Http\\Controllers\\Auth\\PasswordController' => $baseDir . '/app/Http/Controllers/Auth/PasswordController.php',
