@@ -36,6 +36,10 @@ require __DIR__.'/../bootstrap/autoload.php';
 |
 */
 
+/**
+ * @power 实例化application类，注入了一些实例
+ * @date 2015/12/22
+ */
 $app = require_once __DIR__.'/../bootstrap/app.php';
 
 /*

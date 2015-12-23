@@ -140,12 +140,27 @@ class Application extends Container implements ApplicationContract, HttpKernelIn
      */
     public function __construct($basePath = null)
     {
+        /**
+         * @help 第一次进入该函数是由/bootstrap/app.php文件
+         * @power 注册基本的绑定
+         * @date 2015/12/22
+         */
         $this->registerBaseBindings();
 
+        /**
+         * @power 注册基本的事件服务者
+         * @help 这次是我需要help了。好复杂
+         */
         $this->registerBaseServiceProviders();
 
+        /**
+         * @power 注册alias
+         */
         $this->registerCoreContainerAliases();
 
+        /**
+         * @power 不为NULL就设置
+         */
         if ($basePath) {
             $this->setBasePath($basePath);
         }
@@ -168,8 +183,17 @@ class Application extends Container implements ApplicationContract, HttpKernelIn
      */
     protected function registerBaseBindings()
     {
+        /**
+         * @power 调用static类的东西。如果static 是该类的话，这会调用该类的setInstance方法，很明显该类没有setInstance方法，那么会调用父类的setInstance方法（如果父类没有该方法的话，那就会调用该类的__callStatic函数，该类没有_callstatic函数就调用父类的）；如果static是该类的子类的话，这会调用该子类的setInstance函数。
+         * @power 该函数将Container类的静态属性$instance赋值为$this（即该类）
+         * @help http://php.net/manual/zh/language.oop5.static.php
+         */
         static::setInstance($this);
 
+        /**
+         * @power 调用父类的方法
+         * @power 实现了把父类的instances属性赋值的操作
+         */
         $this->instance('app', $this);
 
         $this->instance('Illuminate\Container\Container', $this);
@@ -182,6 +206,9 @@ class Application extends Container implements ApplicationContract, HttpKernelIn
      */
     protected function registerBaseServiceProviders()
     {
+        /**
+         * @power new 操作传入参数实际上调用了EventServiceProvider父类的构造函数
+         */
         $this->register(new EventServiceProvider($this));
 
         $this->register(new RoutingServiceProvider($this));
@@ -517,6 +544,9 @@ class Application extends Container implements ApplicationContract, HttpKernelIn
      */
     public function register($provider, $options = [], $force = false)
     {
+        /**
+         * @power 获取该实例存在，并且force参数为false就返回该实体
+         */
         if ($registered = $this->getProvider($provider) && ! $force) {
             return $registered;
         }
@@ -525,9 +555,17 @@ class Application extends Container implements ApplicationContract, HttpKernelIn
         // application instance automatically for the developer. This is simply
         // a more convenient way of specifying your service provider classes.
         if (is_string($provider)) {
+            /**
+             * @power 实际上new了一个
+             */
             $provider = $this->resolveProviderClass($provider);
         }
 
+        /*
+         * @power 调用该类的register函数 这个地方
+         * @todo 可以检查下该类有没有这个函数或者检查下是不是有这个函数的抽象类的子类
+         * @power register中一般调用了Application的singleton函数。application没有该函数则调用父类的singleton函数
+         */
         $provider->register();
 
         // Once we have registered the service we will iterate through the options
