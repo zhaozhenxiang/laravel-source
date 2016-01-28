@@ -129,6 +129,12 @@ class Container implements ArrayAccess, ContainerContract
      * @param  string  $abstract
      * @return bool
      */
+    /**
+     * @power 判断有没有生产过
+     * @date 2016/1/28
+     * @param string $abstract
+     * @return bool
+     */
     public function bound($abstract)
     {
         return isset($this->bindings[$abstract]) || isset($this->instances[$abstract]) || $this->isAlias($abstract);
@@ -324,6 +330,11 @@ class Container implements ArrayAccess, ContainerContract
      * @param  mixed   $instance
      * @return void
      */
+    /**
+     * @power 在container内部生产并注册实例
+     * @param string $abstract
+     * @param mixed $instance
+     */
     public function instance($abstract, $instance)
     {
         // First, we will extract the alias from the abstract if it is an array so we
@@ -340,11 +351,17 @@ class Container implements ArrayAccess, ContainerContract
         // We'll check to determine if this type has been bound before, and if it has
         // we will fire the rebound callbacks registered with the container and it
         // can be updated with consuming classes that have gotten resolved here.
+        // 判断有没有已经被注册过或者生产过
         $bound = $this->bound($abstract);
 
+        //设置属性，以后该函数还会在该环节被检查，被设置
         $this->instances[$abstract] = $instance;
 
+        //如果上一步的判断值为TRUE
         if ($bound) {
+            /**
+             * @power 生产并调用
+             */
             $this->rebound($abstract);
         }
     }
@@ -410,6 +427,7 @@ class Container implements ArrayAccess, ContainerContract
      */
     protected function extractAlias(array $definition)
     {
+        //当前指针位置的key value
         return [key($definition), current($definition)];
     }
 
@@ -452,6 +470,8 @@ class Container implements ArrayAccess, ContainerContract
      */
     protected function rebound($abstract)
     {
+        //生产abstract映射的class
+        //@date 2016/1/28
         $instance = $this->make($abstract);
 
         foreach ($this->getReboundCallbacks($abstract) as $callback) {
@@ -610,6 +630,13 @@ class Container implements ArrayAccess, ContainerContract
      * @param  string  $abstract
      * @param  array   $parameters
      * @return mixed
+     */
+    /**
+     * @todo 这个函数相当重要 我现在也没有完全理解
+     * @param string $abstract
+     * @param array $parameters
+     * @return mixed
+     * @throws BindingResolutionContractException
      */
     public function make($abstract, array $parameters = [])
     {

@@ -12,9 +12,9 @@
 | loading of any our classes "manually". Feels great to relax.
 |
 */
-
+//加载autoload启动器，大概可以解释为启动器之类的东西吧
 require __DIR__.'/bootstrap/autoload.php';
-
+//生成application类
 $app = require_once __DIR__.'/bootstrap/app.php';
 
 /*
@@ -27,9 +27,9 @@ $app = require_once __DIR__.'/bootstrap/app.php';
 | or another output device for the developers. Here goes nothing!
 |
 */
-
+//注册console核心类。
 $kernel = $app->make(Illuminate\Contracts\Console\Kernel::class);
-
+//注册request 和 reseponse类
 $status = $kernel->handle(
     $input = new Symfony\Component\Console\Input\ArgvInput,
     new Symfony\Component\Console\Output\ConsoleOutput
@@ -45,7 +45,7 @@ $status = $kernel->handle(
 | down the process. This is the last thing to happen to the request.
 |
 */
-
+//cli模式下执行命令
 $kernel->terminate($input, $status);
 
 exit($status);

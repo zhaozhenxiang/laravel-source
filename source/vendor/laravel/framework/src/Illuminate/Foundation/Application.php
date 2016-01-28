@@ -138,8 +138,16 @@ class Application extends Container implements ApplicationContract, HttpKernelIn
      * @param  string|null  $basePath
      * @return void
      */
+    /**
+     * @power 该函数第一次调用在/bootstrap/app.php中
+     * @param null $basePath
+     */
     public function __construct($basePath = null)
     {
+        /**
+         * @power 注册基本的容器类
+         * @date 2016/1/28
+         */
         $this->registerBaseBindings();
 
         $this->registerBaseServiceProviders();
@@ -168,6 +176,9 @@ class Application extends Container implements ApplicationContract, HttpKernelIn
      */
     protected function registerBaseBindings()
     {
+        /**
+         * @power 设置父类静态属性$instance
+         */
         static::setInstance($this);
 
         $this->instance('app', $this);
@@ -680,6 +691,12 @@ class Application extends Container implements ApplicationContract, HttpKernelIn
      * (Overriding Container::bound)
      *
      * @param  string  $abstract
+     * @return bool
+     */
+    /**
+     * @power 判断有没有生产过
+     * @date 2016/1/28
+     * @param string $abstract
      * @return bool
      */
     public function bound($abstract)
