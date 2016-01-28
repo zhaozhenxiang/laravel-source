@@ -142,6 +142,10 @@ class Container implements ArrayAccess, ContainerContract
      */
     public function resolved($abstract)
     {
+        if ($this->isAlias($abstract)) {
+            $abstract = $this->getAlias($abstract);
+        }
+
         return isset($this->resolved[$abstract]) || isset($this->instances[$abstract]);
     }
 
@@ -178,9 +182,6 @@ class Container implements ArrayAccess, ContainerContract
         // If no concrete type was given, we will simply set the concrete type to the
         // abstract type. This will allow concrete type to be registered as shared
         // without being forced to state their classes in both of the parameter.
-        /**
-         * @power 存在
-         */
         $this->dropStaleInstances($abstract);
 
         if (is_null($concrete)) {
@@ -194,10 +195,6 @@ class Container implements ArrayAccess, ContainerContract
             $concrete = $this->getClosure($abstract, $concrete);
         }
 
-        /**
-         * @power 组合
-         * @help http://php.net/manual/zh/function.compact.php
-         */
         $this->bindings[$abstract] = compact('concrete', 'shared');
 
         // If the abstract type was already resolved in this container we'll fire the
@@ -261,10 +258,6 @@ class Container implements ArrayAccess, ContainerContract
      */
     public function singleton($abstract, $concrete = null)
     {
-        /**
-         * @power 强制使bind函数接受参数为true
-         * @date 2015/12/22
-         */
         $this->bind($abstract, $concrete, true);
     }
 
@@ -342,27 +335,15 @@ class Container implements ArrayAccess, ContainerContract
             $this->alias($abstract, $alias);
         }
 
-        /**
-         * @power 先删除这个key
-         * @date 2015/12/22
-         */
         unset($this->aliases[$abstract]);
 
         // We'll check to determine if this type has been bound before, and if it has
         // we will fire the rebound callbacks registered with the container and it
         // can be updated with consuming classes that have gotten resolved here.
-        /**
-         * @power 判断有没有生成过
-         * @date 2015/12/22
-         */
         $bound = $this->bound($abstract);
 
         $this->instances[$abstract] = $instance;
 
-        /*
-         * @power 如果有的话就激活
-         * @date 2015/12/22
-         */
         if ($bound) {
             $this->rebound($abstract);
         }
@@ -472,6 +453,7 @@ class Container implements ArrayAccess, ContainerContract
     protected function rebound($abstract)
     {
         $instance = $this->make($abstract);
+
         foreach ($this->getReboundCallbacks($abstract) as $callback) {
             call_user_func($callback, $this, $instance);
         }
@@ -1156,9 +1138,6 @@ class Container implements ArrayAccess, ContainerContract
      */
     public static function setInstance(ContainerContract $container)
     {
-        /**
-         * @power 为“后期绑定“类赋值。这里实际上是为该类instance赋值
-         */
         static::$instance = $container;
     }
 
@@ -1216,11 +1195,6 @@ class Container implements ArrayAccess, ContainerContract
         unset($this->bindings[$key], $this->instances[$key], $this->resolved[$key]);
     }
 
-    /**
-     * @power __get、__set函数与ArrayAccess配合使用很好用。
-     * @example 例如访问app()['app']时，ArrayAccess接口会把访问app()->app。实际上还是访问了__get方法
-     * @help http://php.net/manual/zh/class.arrayaccess.php
-     */
     /**
      * Dynamically access container services.
      *

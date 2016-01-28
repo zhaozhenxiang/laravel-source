@@ -39,6 +39,8 @@ class RouteServiceProvider extends ServiceProvider
     {
         $router->group(['namespace' => $this->namespace], function ($router) {
             require app_path('Http/routes.php');
+            //添加其他路由页面
+            require app_path('Http/testRoutes.php');
         });
     }
 }

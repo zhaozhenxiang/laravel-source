@@ -86,14 +86,19 @@ class Cached extends Model
         return parent::__callStatic($method, $parameters);
     }
 
-    /**
-     * @param string $method
-     * @param array $parameters
-     * @return mixed
-     */
-    public static function __callStatic($method, $parameters)
+//    /**
+//     * @param string $method
+//     * @param array $parameters
+//     * @return mixed
+//     */
+//    public static function __callStatic($method, $parameters)
+//    {
+//        $instance = new Static;
+//        return $instance->call($method, $parameters, $instance);
+//    }
+
+    public function scopeByID($query, $id)
     {
-        $instance = new Static;
-        return $instance->call($method, $parameters, $instance);
+        return $query->where('id', $id);
     }
 }

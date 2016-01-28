@@ -13,92 +13,33 @@ class ComposerAutoloaderInit6bc6f9d966c5215a477f9e0315defcf5
         }
     }
 
-    /**
-     * @date 2015/12/22
-     * @power 注册自定义的autoload函数
-     * @power 加载了一些composer定义的文件
-     * @power 加载了composer的namespace文件，该文件指示namespace和php文件夹的关系。在以后的加载该namespace的时候，从对应的文件夹中加载（我的猜测）
-     * @power 加载了classLoader.php类，该类从PRS-4的角度读loaderclass（即namespace和file位置吻合）
-     * @help http://php.net/manual/zh/function.spl-autoload-register.php
-     * @return \Composer\Autoload\ClassLoader
-     */
     public static function getLoader()
     {
-        /**
-         * @power 使用单例模式
-         * @help http://www.baike.com/wiki/%E5%8D%95%E4%BE%8B%E6%A8%A1%E5%BC%8F
-         * @date 2015/12/22
-         */
         if (null !== self::$loader) {
             return self::$loader;
         }
 
-        /**
-         * @power 注册加载器
-         * @help http://php.net/manual/zh/function.spl-autoload-register.php
-         * @date 2015/12/22
-         */
         spl_autoload_register(array('ComposerAutoloaderInit6bc6f9d966c5215a477f9e0315defcf5', 'loadClassLoader'), true, true);
-        /**
-         * @power 这里的new 操作符使用了上面的加载器。
-         * @idea 该类没有构造函数。大概是不需要用吧
-         * @date 2015/12/22
-         */
         self::$loader = $loader = new \Composer\Autoload\ClassLoader();
-        /**
-         * @power 取消掉加载器
-         * @date 2015/12/22
-         */
         spl_autoload_unregister(array('ComposerAutoloaderInit6bc6f9d966c5215a477f9e0315defcf5', 'loadClassLoader'));
 
-        /**
-         * @power 加载namespace和文件夹的映射关系
-         * @date 2015/12/22
-         */
         $map = require __DIR__ . '/autoload_namespaces.php';
-        /**
-         * @power 该foreach结构最终的效果是fill了$loader类的prefixesPsr0属性，形如[['p']['person'] => '/sdaa/12313']
-         * @date 2015/12/22
-         */
         foreach ($map as $namespace => $path) {
             $loader->set($namespace, $path);
         }
 
-        /**
-         * @power 加载namespace和文件夹的映射关系
-         * @date 2015/12/22
-         */
         $map = require __DIR__ . '/autoload_psr4.php';
-        /**
-         * @power 该foreach结构最终效果是fill了$loader类的prefixLengthsPsr4、prefixDirsPsr4属性
-         * @date 2015/12/22
-         */
         foreach ($map as $namespace => $path) {
             $loader->setPsr4($namespace, $path);
         }
 
-        /**
-         * @power 加载namespace和文件夹的映射关系
-         * @date 2015/12/22
-         */
         $classMap = require __DIR__ . '/autoload_classmap.php';
-        /**
-         * @power 该foreach结构最终效果是fill了$loader类的classMap属性
-         * @date 2015/12/22
-         */
         if ($classMap) {
             $loader->addClassMap($classMap);
         }
 
-        /**
-         * @power 注册另一个autoload函数
-         * @date 2015/12/22
-         */
         $loader->register(true);
-        /**
-         * @power 直接加载php文件。这些php文件，一般为php工具函数文件
-         * @date 2015/12/22
-         */
+
         $includeFiles = require __DIR__ . '/autoload_files.php';
         foreach ($includeFiles as $fileIdentifier => $file) {
             composerRequire6bc6f9d966c5215a477f9e0315defcf5($fileIdentifier, $file);
@@ -110,11 +51,6 @@ class ComposerAutoloaderInit6bc6f9d966c5215a477f9e0315defcf5
 
 function composerRequire6bc6f9d966c5215a477f9e0315defcf5($fileIdentifier, $file)
 {
-    /**
-     * @power 确定只加载过一次
-     * @date 2015/12/22
-     * @help http://php.net/manual/zh/reserved.variables.globals.php
-     */
     if (empty($GLOBALS['__composer_autoload_files'][$fileIdentifier])) {
         require $file;
 

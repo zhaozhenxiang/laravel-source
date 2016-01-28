@@ -28,3 +28,28 @@ $route->post('/post', ['middleware' => 'CreateStaticHtmlFile', 'uses' => 'Local\
 //    return view('welcome');
 //}]);
 
+$route->get('model', function(){
+    $a = DB::table('cached')->toSql();
+    $b = \App\Cached::where('adad', 1)->orWhere('asda', 1)->toSql();
+    dd($b);
+});
+
+$route->get('orm', function(){
+//
+//    $orm = new \App\Cached();
+//
+//    dd($orm->first()->getID());
+
+//    dd(\App\Cached::saved());
+    dd(\App\Cached::ByID(2)->first());
+    //save这种调用是不可以的
+    $orm = \App\Cached::ByID(2)->first();
+    $orm->id = 3;
+    dd($orm->save());
+});
+
+$route->get('app', function(){
+    $app = app();
+    dd($app->bindings);
+    dd($app->instances);
+});

@@ -12,8 +12,18 @@ class Index extends \App\Http\Controllers\Local\Controller
      * @power 显示页面
      * @return string
      */
-    public function index()
+    public function index(\Request $r)
     {
         return __FILE__ . __LINE__;
+    }
+
+    public function  __construct(\Request $e)
+    {
+
+    }
+
+    public function geta()
+    {
+        return __FILE__ . __LINE__ . __FUNCTION__;
     }
 }

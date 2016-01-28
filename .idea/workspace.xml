@@ -1,0 +1,705 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="5fb6caf8-2301-46c5-ad76-be63c19f2332" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/app/Http/testRoutes.php" />
+      <change type="DELETED" beforePath="E:\GITFILE\GITHUB\laravel-source\source\vendor\league\flysystem\README.md" afterPath="" />
+      <change type="DELETED" beforePath="E:\GITFILE\GITHUB\laravel-source\source\vendor\mtdowling\cron-expression\phpunit.xml.dist" afterPath="" />
+      <change type="DELETED" beforePath="E:\GITFILE\GITHUB\laravel-source\source\vendor\symfony\process\Tests\AbstractProcessTest.php" afterPath="" />
+      <change type="DELETED" beforePath="E:\GITFILE\GITHUB\laravel-source\source\vendor\symfony\process\Tests\ProcessInSigchildEnvironment.php" afterPath="" />
+      <change type="DELETED" beforePath="E:\GITFILE\GITHUB\laravel-source\source\vendor\symfony\process\Tests\SigchildDisabledProcessTest.php" afterPath="" />
+      <change type="DELETED" beforePath="E:\GITFILE\GITHUB\laravel-source\source\vendor\symfony\process\Tests\SigchildEnabledProcessTest.php" afterPath="" />
+      <change type="DELETED" beforePath="E:\GITFILE\GITHUB\laravel-source\source\vendor\symfony\process\Tests\SimpleProcessTest.php" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/vendor/paragonie/random_compat/.travis.yml" afterPath="$PROJECT_DIR$/source/vendor/paragonie/random_compat/.travis.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/vendor/league/flysystem/src/Adapter/AbstractAdapter.php" afterPath="$PROJECT_DIR$/source/vendor/league/flysystem/src/Adapter/AbstractAdapter.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/vendor/mtdowling/cron-expression/src/Cron/AbstractField.php" afterPath="$PROJECT_DIR$/source/vendor/mtdowling/cron-expression/src/Cron/AbstractField.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/vendor/league/flysystem/src/Adapter/AbstractFtpAdapter.php" afterPath="$PROJECT_DIR$/source/vendor/league/flysystem/src/Adapter/AbstractFtpAdapter.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/vendor/symfony/http-foundation/Session/Storage/Proxy/AbstractProxy.php" afterPath="$PROJECT_DIR$/source/vendor/symfony/http-foundation/Session/Storage/Proxy/AbstractProxy.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/vendor/symfony/var-dumper/Caster/AmqpCaster.php" afterPath="$PROJECT_DIR$/source/vendor/symfony/var-dumper/Caster/AmqpCaster.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/vendor/laravel/framework/src/Illuminate/Foundation/Application.php" afterPath="$PROJECT_DIR$/source/vendor/laravel/framework/src/Illuminate/Foundation/Application.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/vendor/symfony/console/Application.php" afterPath="$PROJECT_DIR$/source/vendor/symfony/console/Application.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/vendor/laravel/framework/src/Illuminate/Support/Arr.php" afterPath="$PROJECT_DIR$/source/vendor/laravel/framework/src/Illuminate/Support/Arr.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/vendor/laravel/framework/src/Illuminate/Foundation/Auth/Access/AuthorizesRequests.php" afterPath="$PROJECT_DIR$/source/vendor/laravel/framework/src/Illuminate/Foundation/Auth/Access/AuthorizesRequests.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Relations/BelongsToMany.php" afterPath="$PROJECT_DIR$/source/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Relations/BelongsToMany.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/vendor/symfony/http-foundation/BinaryFileResponse.php" afterPath="$PROJECT_DIR$/source/vendor/symfony/http-foundation/BinaryFileResponse.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/vendor/symfony/http-foundation/Tests/BinaryFileResponseTest.php" afterPath="$PROJECT_DIR$/source/vendor/symfony/http-foundation/Tests/BinaryFileResponseTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/vendor/laravel/framework/src/Illuminate/Database/Schema/Blueprint.php" afterPath="$PROJECT_DIR$/source/vendor/laravel/framework/src/Illuminate/Database/Schema/Blueprint.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/vendor/laravel/framework/src/Illuminate/Broadcasting/BroadcastManager.php" afterPath="$PROJECT_DIR$/source/vendor/laravel/framework/src/Illuminate/Broadcasting/BroadcastManager.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Builder.php" afterPath="$PROJECT_DIR$/source/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Builder.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/vendor/laravel/framework/src/Illuminate/Database/Query/Builder.php" afterPath="$PROJECT_DIR$/source/vendor/laravel/framework/src/Illuminate/Database/Query/Builder.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/vendor/symfony/http-kernel/Bundle/Bundle.php" afterPath="$PROJECT_DIR$/source/vendor/symfony/http-kernel/Bundle/Bundle.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/vendor/phpspec/phpspec/CHANGES.md" afterPath="$PROJECT_DIR$/source/vendor/phpspec/phpspec/CHANGES.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/vendor/laravel/framework/src/Illuminate/Cache/CacheManager.php" afterPath="$PROJECT_DIR$/source/vendor/laravel/framework/src/Illuminate/Cache/CacheManager.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/app/Cached.php" afterPath="$PROJECT_DIR$/source/app/Cached.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/vendor/phpspec/phpspec/src/PhpSpec/Util/ClassFileAnalyser.php" afterPath="$PROJECT_DIR$/source/vendor/phpspec/phpspec/src/PhpSpec/Util/ClassFileAnalyser.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/vendor/phpspec/phpspec/spec/PhpSpec/Util/ClassFileAnalyserSpec.php" afterPath="$PROJECT_DIR$/source/vendor/phpspec/phpspec/spec/PhpSpec/Util/ClassFileAnalyserSpec.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/vendor/symfony/http-kernel/Client.php" afterPath="$PROJECT_DIR$/source/vendor/symfony/http-kernel/Client.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Collection.php" afterPath="$PROJECT_DIR$/source/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Collection.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/vendor/laravel/framework/src/Illuminate/Console/Command.php" afterPath="$PROJECT_DIR$/source/vendor/laravel/framework/src/Illuminate/Console/Command.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/vendor/league/flysystem/src/Config.php" afterPath="$PROJECT_DIR$/source/vendor/league/flysystem/src/Config.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/vendor/laravel/framework/src/Illuminate/Database/Connectors/ConnectionFactory.php" afterPath="$PROJECT_DIR$/source/vendor/laravel/framework/src/Illuminate/Database/Connectors/ConnectionFactory.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/vendor/phpspec/phpspec/src/PhpSpec/Formatter/ConsoleFormatter.php" afterPath="$PROJECT_DIR$/source/vendor/phpspec/phpspec/src/PhpSpec/Formatter/ConsoleFormatter.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/vendor/symfony/console/Output/ConsoleOutput.php" afterPath="$PROJECT_DIR$/source/vendor/symfony/console/Output/ConsoleOutput.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/vendor/laravel/framework/src/Illuminate/Container/Container.php" afterPath="$PROJECT_DIR$/source/vendor/laravel/framework/src/Illuminate/Container/Container.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/vendor/phpspec/phpspec/src/PhpSpec/Console/ContainerAssembler.php" afterPath="$PROJECT_DIR$/source/vendor/phpspec/phpspec/src/PhpSpec/Console/ContainerAssembler.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/vendor/laravel/framework/src/Illuminate/Routing/ControllerDispatcher.php" afterPath="$PROJECT_DIR$/source/vendor/laravel/framework/src/Illuminate/Routing/ControllerDispatcher.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/vendor/symfony/http-kernel/Tests/Controller/ControllerResolverTest.php" afterPath="$PROJECT_DIR$/source/vendor/symfony/http-kernel/Tests/Controller/ControllerResolverTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/vendor/laravel/framework/src/Illuminate/Cookie/CookieJar.php" afterPath="$PROJECT_DIR$/source/vendor/laravel/framework/src/Illuminate/Cookie/CookieJar.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/vendor/laravel/framework/src/Illuminate/Cookie/CookieServiceProvider.php" afterPath="$PROJECT_DIR$/source/vendor/laravel/framework/src/Illuminate/Cookie/CookieServiceProvider.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/vendor/symfony/dom-crawler/Tests/CrawlerTest.php" afterPath="$PROJECT_DIR$/source/vendor/symfony/dom-crawler/Tests/CrawlerTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/vendor/laravel/framework/src/Illuminate/Foundation/Testing/CrawlerTrait.php" afterPath="$PROJECT_DIR$/source/vendor/laravel/framework/src/Illuminate/Foundation/Testing/CrawlerTrait.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/vendor/mtdowling/cron-expression/src/Cron/CronExpression.php" afterPath="$PROJECT_DIR$/source/vendor/mtdowling/cron-expression/src/Cron/CronExpression.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/vendor/mtdowling/cron-expression/tests/Cron/CronExpressionTest.php" afterPath="$PROJECT_DIR$/source/vendor/mtdowling/cron-expression/tests/Cron/CronExpressionTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/vendor/symfony/var-dumper/Cloner/Data.php" afterPath="$PROJECT_DIR$/source/vendor/symfony/var-dumper/Cloner/Data.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/vendor/laravel/framework/src/Illuminate/Cache/DatabaseStore.php" afterPath="$PROJECT_DIR$/source/vendor/laravel/framework/src/Illuminate/Cache/DatabaseStore.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/vendor/mtdowling/cron-expression/src/Cron/DayOfWeekField.php" afterPath="$PROJECT_DIR$/source/vendor/mtdowling/cron-expression/src/Cron/DayOfWeekField.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/vendor/symfony/debug/DebugClassLoader.php" afterPath="$PROJECT_DIR$/source/vendor/symfony/debug/DebugClassLoader.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/vendor/symfony/debug/Tests/DebugClassLoaderTest.php" afterPath="$PROJECT_DIR$/source/vendor/symfony/debug/Tests/DebugClassLoaderTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/vendor/symfony/http-kernel/EventListener/DebugHandlersListener.php" afterPath="$PROJECT_DIR$/source/vendor/symfony/http-kernel/EventListener/DebugHandlersListener.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/vendor/laravel/framework/src/Illuminate/Database/DetectsLostConnections.php" afterPath="$PROJECT_DIR$/source/vendor/laravel/framework/src/Illuminate/Database/DetectsLostConnections.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/vendor/symfony/console/Helper/DialogHelper.php" afterPath="$PROJECT_DIR$/source/vendor/symfony/console/Helper/DialogHelper.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/vendor/laravel/framework/src/Illuminate/Bus/Dispatcher.php" afterPath="$PROJECT_DIR$/source/vendor/laravel/framework/src/Illuminate/Bus/Dispatcher.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/vendor/symfony/css-selector/Tests/Node/ElementNodeTest.php" afterPath="$PROJECT_DIR$/source/vendor/symfony/css-selector/Tests/Node/ElementNodeTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/vendor/symfony/debug/ErrorHandler.php" afterPath="$PROJECT_DIR$/source/vendor/symfony/debug/ErrorHandler.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/vendor/laravel/framework/src/Illuminate/Console/Scheduling/Event.php" afterPath="$PROJECT_DIR$/source/vendor/laravel/framework/src/Illuminate/Console/Scheduling/Event.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/vendor/symfony/event-dispatcher/EventSubscriberInterface.php" afterPath="$PROJECT_DIR$/source/vendor/symfony/event-dispatcher/EventSubscriberInterface.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/vendor/symfony/debug/ExceptionHandler.php" afterPath="$PROJECT_DIR$/source/vendor/symfony/debug/ExceptionHandler.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/vendor/symfony/process/Tests/ExecutableFinderTest.php" afterPath="$PROJECT_DIR$/source/vendor/symfony/process/Tests/ExecutableFinderTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/vendor/symfony/http-kernel/Tests/Fixtures/ExtensionLoadedBundle/DependencyInjection/ExtensionLoadedExtension.php" afterPath="$PROJECT_DIR$/source/vendor/symfony/http-kernel/Tests/Fixtures/ExtensionLoadedBundle/DependencyInjection/ExtensionLoadedExtension.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/vendor/symfony/http-kernel/Tests/Fixtures/ExtensionPresentBundle/DependencyInjection/ExtensionPresentExtension.php" afterPath="$PROJECT_DIR$/source/vendor/symfony/http-kernel/Tests/Fixtures/ExtensionPresentBundle/DependencyInjection/ExtensionPresentExtension.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php" afterPath="$PROJECT_DIR$/source/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Factory.php" afterPath="$PROJECT_DIR$/source/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Factory.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/vendor/league/flysystem/src/FileExistsException.php" afterPath="$PROJECT_DIR$/source/vendor/league/flysystem/src/FileExistsException.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/vendor/league/flysystem/src/FileNotFoundException.php" afterPath="$PROJECT_DIR$/source/vendor/league/flysystem/src/FileNotFoundException.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php" afterPath="$PROJECT_DIR$/source/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/vendor/league/flysystem/src/Filesystem.php" afterPath="$PROJECT_DIR$/source/vendor/league/flysystem/src/Filesystem.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/vendor/laravel/framework/src/Illuminate/Filesystem/FilesystemManager.php" afterPath="$PROJECT_DIR$/source/vendor/laravel/framework/src/Illuminate/Filesystem/FilesystemManager.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/vendor/symfony/debug/Exception/FlattenException.php" afterPath="$PROJECT_DIR$/source/vendor/symfony/debug/Exception/FlattenException.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/vendor/symfony/debug/Tests/Exception/FlattenExceptionTest.php" afterPath="$PROJECT_DIR$/source/vendor/symfony/debug/Tests/Exception/FlattenExceptionTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/vendor/league/flysystem/src/Adapter/Ftp.php" afterPath="$PROJECT_DIR$/source/vendor/league/flysystem/src/Adapter/Ftp.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/vendor/league/flysystem/src/Adapter/Ftpd.php" afterPath="$PROJECT_DIR$/source/vendor/league/flysystem/src/Adapter/Ftpd.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/vendor/league/flysystem/src/Plugin/GetWithMetadata.php" afterPath="$PROJECT_DIR$/source/vendor/league/flysystem/src/Plugin/GetWithMetadata.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/vendor/laravel/framework/src/Illuminate/Database/Grammar.php" afterPath="$PROJECT_DIR$/source/vendor/laravel/framework/src/Illuminate/Database/Grammar.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/vendor/laravel/framework/src/Illuminate/Auth/Guard.php" afterPath="$PROJECT_DIR$/source/vendor/laravel/framework/src/Illuminate/Auth/Guard.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/app/Exceptions/Handler.php" afterPath="$PROJECT_DIR$/source/app/Exceptions/Handler.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/vendor/league/flysystem/src/Handler.php" afterPath="$PROJECT_DIR$/source/vendor/league/flysystem/src/Handler.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/vendor/symfony/http-foundation/HeaderBag.php" afterPath="$PROJECT_DIR$/source/vendor/symfony/http-foundation/HeaderBag.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/vendor/symfony/console/Command/HelpCommand.php" afterPath="$PROJECT_DIR$/source/vendor/symfony/console/Command/HelpCommand.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/vendor/mtdowling/cron-expression/src/Cron/HoursField.php" afterPath="$PROJECT_DIR$/source/vendor/mtdowling/cron-expression/src/Cron/HoursField.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/vendor/mtdowling/cron-expression/tests/Cron/HoursFieldTest.php" afterPath="$PROJECT_DIR$/source/vendor/mtdowling/cron-expression/tests/Cron/HoursFieldTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/vendor/symfony/var-dumper/Dumper/HtmlDumper.php" afterPath="$PROJECT_DIR$/source/vendor/symfony/var-dumper/Dumper/HtmlDumper.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/vendor/symfony/http-kernel/Tests/HttpCache/HttpCacheTest.php" afterPath="$PROJECT_DIR$/source/vendor/symfony/http-kernel/Tests/HttpCache/HttpCacheTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/vendor/symfony/translation/Dumper/IcuResFileDumper.php" afterPath="$PROJECT_DIR$/source/vendor/symfony/translation/Dumper/IcuResFileDumper.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/app/Http/Controllers/Local/Index.php" afterPath="$PROJECT_DIR$/source/app/Http/Controllers/Local/Index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/vendor/laravel/framework/src/Illuminate/Queue/IronQueue.php" afterPath="$PROJECT_DIR$/source/vendor/laravel/framework/src/Illuminate/Queue/IronQueue.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/vendor/laravel/framework/src/Illuminate/Database/Query/JoinClause.php" afterPath="$PROJECT_DIR$/source/vendor/laravel/framework/src/Illuminate/Database/Query/JoinClause.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/vendor/symfony/http-foundation/JsonResponse.php" afterPath="$PROJECT_DIR$/source/vendor/symfony/http-foundation/JsonResponse.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/app/Console/Kernel.php" afterPath="$PROJECT_DIR$/source/app/Console/Kernel.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/vendor/symfony/http-kernel/Kernel.php" afterPath="$PROJECT_DIR$/source/vendor/symfony/http-kernel/Kernel.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/vendor/symfony/console/LICENSE" afterPath="$PROJECT_DIR$/source/vendor/symfony/console/LICENSE" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/vendor/symfony/css-selector/LICENSE" afterPath="$PROJECT_DIR$/source/vendor/symfony/css-selector/LICENSE" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/vendor/symfony/debug/LICENSE" afterPath="$PROJECT_DIR$/source/vendor/symfony/debug/LICENSE" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/vendor/symfony/dom-crawler/LICENSE" afterPath="$PROJECT_DIR$/source/vendor/symfony/dom-crawler/LICENSE" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/vendor/symfony/event-dispatcher/LICENSE" afterPath="$PROJECT_DIR$/source/vendor/symfony/event-dispatcher/LICENSE" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/vendor/symfony/finder/LICENSE" afterPath="$PROJECT_DIR$/source/vendor/symfony/finder/LICENSE" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/vendor/symfony/http-foundation/LICENSE" afterPath="$PROJECT_DIR$/source/vendor/symfony/http-foundation/LICENSE" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/vendor/symfony/http-kernel/LICENSE" afterPath="$PROJECT_DIR$/source/vendor/symfony/http-kernel/LICENSE" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/vendor/symfony/polyfill-php56/LICENSE" afterPath="$PROJECT_DIR$/source/vendor/symfony/polyfill-php56/LICENSE" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/vendor/symfony/polyfill-util/LICENSE" afterPath="$PROJECT_DIR$/source/vendor/symfony/polyfill-util/LICENSE" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/vendor/symfony/process/LICENSE" afterPath="$PROJECT_DIR$/source/vendor/symfony/process/LICENSE" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/vendor/symfony/routing/LICENSE" afterPath="$PROJECT_DIR$/source/vendor/symfony/routing/LICENSE" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/vendor/symfony/translation/LICENSE" afterPath="$PROJECT_DIR$/source/vendor/symfony/translation/LICENSE" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/vendor/symfony/var-dumper/LICENSE" afterPath="$PROJECT_DIR$/source/vendor/symfony/var-dumper/LICENSE" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/vendor/symfony/console/Tests/Helper/LegacyTableHelperTest.php" afterPath="$PROJECT_DIR$/source/vendor/symfony/console/Tests/Helper/LegacyTableHelperTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/vendor/symfony/console/Command/ListCommand.php" afterPath="$PROJECT_DIR$/source/vendor/symfony/console/Command/ListCommand.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/vendor/symfony/console/Tests/Command/ListCommandTest.php" afterPath="$PROJECT_DIR$/source/vendor/symfony/console/Tests/Command/ListCommandTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/vendor/laravel/framework/src/Illuminate/Queue/Console/ListFailedCommand.php" afterPath="$PROJECT_DIR$/source/vendor/laravel/framework/src/Illuminate/Queue/Console/ListFailedCommand.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/vendor/league/flysystem/src/Plugin/ListWith.php" afterPath="$PROJECT_DIR$/source/vendor/league/flysystem/src/Plugin/ListWith.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/vendor/laravel/framework/src/Illuminate/Foundation/Console/ListenerMakeCommand.php" afterPath="$PROJECT_DIR$/source/vendor/laravel/framework/src/Illuminate/Foundation/Console/ListenerMakeCommand.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/vendor/league/flysystem/src/Adapter/Local.php" afterPath="$PROJECT_DIR$/source/vendor/league/flysystem/src/Adapter/Local.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/vendor/league/flysystem/src/Util/MimeType.php" afterPath="$PROJECT_DIR$/source/vendor/league/flysystem/src/Util/MimeType.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/vendor/mtdowling/cron-expression/src/Cron/MinutesField.php" afterPath="$PROJECT_DIR$/source/vendor/mtdowling/cron-expression/src/Cron/MinutesField.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/vendor/symfony/http-foundation/Session/Storage/MockFileSessionStorage.php" afterPath="$PROJECT_DIR$/source/vendor/symfony/http-foundation/Session/Storage/MockFileSessionStorage.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/vendor/symfony/finder/Tests/Iterator/MockSplFileInfo.php" afterPath="$PROJECT_DIR$/source/vendor/symfony/finder/Tests/Iterator/MockSplFileInfo.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php" afterPath="$PROJECT_DIR$/source/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/vendor/mtdowling/cron-expression/tests/Cron/MonthFieldTest.php" afterPath="$PROJECT_DIR$/source/vendor/mtdowling/cron-expression/tests/Cron/MonthFieldTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/vendor/league/flysystem/src/MountManager.php" afterPath="$PROJECT_DIR$/source/vendor/league/flysystem/src/MountManager.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/vendor/symfony/http-foundation/Session/Storage/Handler/NativeFileSessionHandler.php" afterPath="$PROJECT_DIR$/source/vendor/symfony/http-foundation/Session/Storage/Handler/NativeFileSessionHandler.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/vendor/symfony/http-foundation/Session/Storage/NativeSessionStorage.php" afterPath="$PROJECT_DIR$/source/vendor/symfony/http-foundation/Session/Storage/NativeSessionStorage.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/vendor/symfony/process/Tests/NonStopableProcess.php" afterPath="$PROJECT_DIR$/source/vendor/symfony/process/Tests/NonStopableProcess.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/vendor/league/flysystem/src/NotSupportedException.php" afterPath="$PROJECT_DIR$/source/vendor/league/flysystem/src/NotSupportedException.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/vendor/league/flysystem/src/Adapter/Polyfill/NotSupportingVisibilityTrait.php" afterPath="$PROJECT_DIR$/source/vendor/league/flysystem/src/Adapter/Polyfill/NotSupportingVisibilityTrait.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/vendor/symfony/console/Tests/Formatter/OutputFormatterTest.php" afterPath="$PROJECT_DIR$/source/vendor/symfony/console/Tests/Formatter/OutputFormatterTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/vendor/phpspec/phpspec/src/PhpSpec/Locator/PSR0/PSR0Locator.php" afterPath="$PROJECT_DIR$/source/vendor/phpspec/phpspec/src/PhpSpec/Locator/PSR0/PSR0Locator.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/vendor/phpspec/phpspec/spec/PhpSpec/Locator/PSR0/PSR0LocatorSpec.php" afterPath="$PROJECT_DIR$/source/vendor/phpspec/phpspec/spec/PhpSpec/Locator/PSR0/PSR0LocatorSpec.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/vendor/phpspec/phpspec/src/PhpSpec/Locator/PSR0/PSR0Resource.php" afterPath="$PROJECT_DIR$/source/vendor/phpspec/phpspec/src/PhpSpec/Locator/PSR0/PSR0Resource.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/vendor/phpspec/phpspec/spec/PhpSpec/Locator/PSR0/PSR0ResourceSpec.php" afterPath="$PROJECT_DIR$/source/vendor/phpspec/phpspec/spec/PhpSpec/Locator/PSR0/PSR0ResourceSpec.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/vendor/laravel/framework/src/Illuminate/Pagination/PaginationServiceProvider.php" afterPath="$PROJECT_DIR$/source/vendor/laravel/framework/src/Illuminate/Pagination/PaginationServiceProvider.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/vendor/laravel/framework/src/Illuminate/Console/Parser.php" afterPath="$PROJECT_DIR$/source/vendor/laravel/framework/src/Illuminate/Console/Parser.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/vendor/symfony/yaml/Parser.php" afterPath="$PROJECT_DIR$/source/vendor/symfony/yaml/Parser.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/vendor/symfony/yaml/Tests/ParserTest.php" afterPath="$PROJECT_DIR$/source/vendor/symfony/yaml/Tests/ParserTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/vendor/phpspec/phpspec/src/PhpSpec/Process/ReRunner/PassthruReRunner.php" afterPath="$PROJECT_DIR$/source/vendor/phpspec/phpspec/src/PhpSpec/Process/ReRunner/PassthruReRunner.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/vendor/laravel/framework/src/Illuminate/Auth/Passwords/PasswordBroker.php" afterPath="$PROJECT_DIR$/source/vendor/laravel/framework/src/Illuminate/Auth/Passwords/PasswordBroker.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/vendor/symfony/http-kernel/Profiler/PdoProfilerStorage.php" afterPath="$PROJECT_DIR$/source/vendor/symfony/http-kernel/Profiler/PdoProfilerStorage.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/vendor/symfony/polyfill-php56/Php56.php" afterPath="$PROJECT_DIR$/source/vendor/symfony/polyfill-php56/Php56.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/vendor/symfony/routing/Generator/Dumper/PhpGeneratorDumper.php" afterPath="$PROJECT_DIR$/source/vendor/symfony/routing/Generator/Dumper/PhpGeneratorDumper.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/vendor/symfony/routing/Tests/Generator/Dumper/PhpGeneratorDumperTest.php" afterPath="$PROJECT_DIR$/source/vendor/symfony/routing/Tests/Generator/Dumper/PhpGeneratorDumperTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/vendor/symfony/routing/Tests/Matcher/Dumper/PhpMatcherDumperTest.php" afterPath="$PROJECT_DIR$/source/vendor/symfony/routing/Tests/Matcher/Dumper/PhpMatcherDumperTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/vendor/symfony/process/PhpProcess.php" afterPath="$PROJECT_DIR$/source/vendor/symfony/process/PhpProcess.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/vendor/symfony/process/Tests/PhpProcessTest.php" afterPath="$PROJECT_DIR$/source/vendor/symfony/process/Tests/PhpProcessTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/vendor/league/flysystem/src/Plugin/PluggableTrait.php" afterPath="$PROJECT_DIR$/source/vendor/league/flysystem/src/Plugin/PluggableTrait.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/vendor/symfony/translation/Tests/PluralizationRulesTest.php" afterPath="$PROJECT_DIR$/source/vendor/symfony/translation/Tests/PluralizationRulesTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/vendor/laravel/framework/src/Illuminate/Support/Pluralizer.php" afterPath="$PROJECT_DIR$/source/vendor/laravel/framework/src/Illuminate/Support/Pluralizer.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/vendor/laravel/framework/src/Illuminate/Database/Query/Grammars/PostgresGrammar.php" afterPath="$PROJECT_DIR$/source/vendor/laravel/framework/src/Illuminate/Database/Query/Grammars/PostgresGrammar.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/vendor/phpspec/phpspec/src/PhpSpec/Console/Assembler/PresenterAssembler.php" afterPath="$PROJECT_DIR$/source/vendor/phpspec/phpspec/src/PhpSpec/Console/Assembler/PresenterAssembler.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/vendor/symfony/process/Process.php" afterPath="$PROJECT_DIR$/source/vendor/symfony/process/Process.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/vendor/symfony/console/Helper/ProgressBar.php" afterPath="$PROJECT_DIR$/source/vendor/symfony/console/Helper/ProgressBar.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/vendor/symfony/console/Tests/Helper/ProgressBarTest.php" afterPath="$PROJECT_DIR$/source/vendor/symfony/console/Tests/Helper/ProgressBarTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/vendor/laravel/framework/src/Illuminate/Broadcasting/Broadcasters/PusherBroadcaster.php" afterPath="$PROJECT_DIR$/source/vendor/laravel/framework/src/Illuminate/Broadcasting/Broadcasters/PusherBroadcaster.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/vendor/symfony/console/Helper/QuestionHelper.php" afterPath="$PROJECT_DIR$/source/vendor/symfony/console/Helper/QuestionHelper.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/vendor/symfony/console/Tests/Helper/QuestionHelperTest.php" afterPath="$PROJECT_DIR$/source/vendor/symfony/console/Tests/Helper/QuestionHelperTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/vendor/mtdowling/cron-expression/README.md" afterPath="$PROJECT_DIR$/source/vendor/mtdowling/cron-expression/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/vendor/symfony/debug/README.md" afterPath="$PROJECT_DIR$/source/vendor/symfony/debug/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/vendor/symfony/polyfill-php56/README.md" afterPath="$PROJECT_DIR$/source/vendor/symfony/polyfill-php56/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/vendor/symfony/polyfill-util/README.md" afterPath="$PROJECT_DIR$/source/vendor/symfony/polyfill-util/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/vendor/paragonie/random_compat/tests/unit/RandomIntTest.php" afterPath="$PROJECT_DIR$/source/vendor/paragonie/random_compat/tests/unit/RandomIntTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/vendor/laravel/framework/src/Illuminate/Cache/RedisTaggedCache.php" afterPath="$PROJECT_DIR$/source/vendor/laravel/framework/src/Illuminate/Cache/RedisTaggedCache.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/vendor/laravel/framework/src/Illuminate/Cache/Repository.php" afterPath="$PROJECT_DIR$/source/vendor/laravel/framework/src/Illuminate/Cache/Repository.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/vendor/laravel/framework/src/Illuminate/Http/Request.php" afterPath="$PROJECT_DIR$/source/vendor/laravel/framework/src/Illuminate/Http/Request.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/vendor/symfony/http-foundation/Tests/RequestTest.php" afterPath="$PROJECT_DIR$/source/vendor/symfony/http-foundation/Tests/RequestTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/vendor/laravel/framework/src/Illuminate/Foundation/Auth/ResetsPasswords.php" afterPath="$PROJECT_DIR$/source/vendor/laravel/framework/src/Illuminate/Foundation/Auth/ResetsPasswords.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/vendor/symfony/http-foundation/Response.php" afterPath="$PROJECT_DIR$/source/vendor/symfony/http-foundation/Response.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/vendor/symfony/http-foundation/ResponseHeaderBag.php" afterPath="$PROJECT_DIR$/source/vendor/symfony/http-foundation/ResponseHeaderBag.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/vendor/laravel/framework/src/Illuminate/Queue/Console/RetryCommand.php" afterPath="$PROJECT_DIR$/source/vendor/laravel/framework/src/Illuminate/Queue/Console/RetryCommand.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/vendor/laravel/framework/src/Illuminate/Routing/RouteDependencyResolverTrait.php" afterPath="$PROJECT_DIR$/source/vendor/laravel/framework/src/Illuminate/Routing/RouteDependencyResolverTrait.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/vendor/laravel/framework/src/Illuminate/Foundation/Console/RouteListCommand.php" afterPath="$PROJECT_DIR$/source/vendor/laravel/framework/src/Illuminate/Foundation/Console/RouteListCommand.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/app/Providers/RouteServiceProvider.php" afterPath="$PROJECT_DIR$/source/app/Providers/RouteServiceProvider.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/vendor/laravel/framework/src/Illuminate/Routing/Router.php" afterPath="$PROJECT_DIR$/source/vendor/laravel/framework/src/Illuminate/Routing/Router.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/vendor/laravel/framework/src/Illuminate/Database/Schema/Grammars/SQLiteGrammar.php" afterPath="$PROJECT_DIR$/source/vendor/laravel/framework/src/Illuminate/Database/Schema/Grammars/SQLiteGrammar.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/vendor/symfony/console/Shell.php" afterPath="$PROJECT_DIR$/source/vendor/symfony/console/Shell.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/vendor/symfony/process/Tests/SignalListener.php" afterPath="$PROJECT_DIR$/source/vendor/symfony/process/Tests/SignalListener.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/vendor/symfony/finder/Iterator/SortableIterator.php" afterPath="$PROJECT_DIR$/source/vendor/symfony/finder/Iterator/SortableIterator.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/vendor/laravel/framework/src/Illuminate/Database/Query/Grammars/SqlServerGrammar.php" afterPath="$PROJECT_DIR$/source/vendor/laravel/framework/src/Illuminate/Database/Query/Grammars/SqlServerGrammar.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/vendor/laravel/framework/src/Illuminate/Session/Store.php" afterPath="$PROJECT_DIR$/source/vendor/laravel/framework/src/Illuminate/Session/Store.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/vendor/symfony/http-kernel/HttpCache/Store.php" afterPath="$PROJECT_DIR$/source/vendor/symfony/http-kernel/HttpCache/Store.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/vendor/league/flysystem/src/Adapter/Polyfill/StreamedCopyTrait.php" afterPath="$PROJECT_DIR$/source/vendor/league/flysystem/src/Adapter/Polyfill/StreamedCopyTrait.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/vendor/league/flysystem/src/Adapter/Polyfill/StreamedReadingTrait.php" afterPath="$PROJECT_DIR$/source/vendor/league/flysystem/src/Adapter/Polyfill/StreamedReadingTrait.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/vendor/symfony/console/Tests/Input/StringInputTest.php" afterPath="$PROJECT_DIR$/source/vendor/symfony/console/Tests/Input/StringInputTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/vendor/symfony/console/Helper/SymfonyQuestionHelper.php" afterPath="$PROJECT_DIR$/source/vendor/symfony/console/Helper/SymfonyQuestionHelper.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/vendor/symfony/console/Helper/Table.php" afterPath="$PROJECT_DIR$/source/vendor/symfony/console/Helper/Table.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/vendor/symfony/console/Helper/TableHelper.php" afterPath="$PROJECT_DIR$/source/vendor/symfony/console/Helper/TableHelper.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/vendor/symfony/console/Tests/Helper/TableTest.php" afterPath="$PROJECT_DIR$/source/vendor/symfony/console/Tests/Helper/TableTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/vendor/laravel/framework/src/Illuminate/Cache/TagSet.php" afterPath="$PROJECT_DIR$/source/vendor/laravel/framework/src/Illuminate/Cache/TagSet.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/vendor/laravel/framework/src/Illuminate/Cache/TaggedCache.php" afterPath="$PROJECT_DIR$/source/vendor/laravel/framework/src/Illuminate/Cache/TaggedCache.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/vendor/symfony/polyfill-util/TestListener.php" afterPath="$PROJECT_DIR$/source/vendor/symfony/polyfill-util/TestListener.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/vendor/symfony/console/Descriptor/TextDescriptor.php" afterPath="$PROJECT_DIR$/source/vendor/symfony/console/Descriptor/TextDescriptor.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/vendor/laravel/framework/src/Illuminate/Foundation/Auth/ThrottlesLogins.php" afterPath="$PROJECT_DIR$/source/vendor/laravel/framework/src/Illuminate/Foundation/Auth/ThrottlesLogins.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/vendor/phpspec/phpspec/src/PhpSpec/CodeGenerator/Writer/TokenizedCodeWriter.php" afterPath="$PROJECT_DIR$/source/vendor/phpspec/phpspec/src/PhpSpec/CodeGenerator/Writer/TokenizedCodeWriter.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/vendor/phpspec/phpspec/src/PhpSpec/CodeAnalysis/TokenizedTypeHintRewriter.php" afterPath="$PROJECT_DIR$/source/vendor/phpspec/phpspec/src/PhpSpec/CodeAnalysis/TokenizedTypeHintRewriter.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/vendor/phpspec/phpspec/spec/PhpSpec/CodeAnalysis/TokenizedTypeHintRewriterSpec.php" afterPath="$PROJECT_DIR$/source/vendor/phpspec/phpspec/spec/PhpSpec/CodeAnalysis/TokenizedTypeHintRewriterSpec.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/vendor/symfony/translation/Writer/TranslationWriter.php" afterPath="$PROJECT_DIR$/source/vendor/symfony/translation/Writer/TranslationWriter.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/vendor/laravel/framework/src/Illuminate/Mail/TransportManager.php" afterPath="$PROJECT_DIR$/source/vendor/laravel/framework/src/Illuminate/Mail/TransportManager.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/vendor/symfony/http-kernel/UriSigner.php" afterPath="$PROJECT_DIR$/source/vendor/symfony/http-kernel/UriSigner.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/vendor/symfony/http-kernel/Tests/UriSignerTest.php" afterPath="$PROJECT_DIR$/source/vendor/symfony/http-kernel/Tests/UriSignerTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/vendor/laravel/framework/src/Illuminate/Routing/UrlGenerator.php" afterPath="$PROJECT_DIR$/source/vendor/laravel/framework/src/Illuminate/Routing/UrlGenerator.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/vendor/league/flysystem/src/Util.php" afterPath="$PROJECT_DIR$/source/vendor/league/flysystem/src/Util.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/vendor/laravel/framework/src/Illuminate/Validation/Validator.php" afterPath="$PROJECT_DIR$/source/vendor/laravel/framework/src/Illuminate/Validation/Validator.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/VerifyCsrfToken.php" afterPath="$PROJECT_DIR$/source/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/VerifyCsrfToken.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/bootstrap/app.php" afterPath="$PROJECT_DIR$/source/bootstrap/app.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/vendor/symfony/console/Tests/Fixtures/application_renderexception1.txt" afterPath="$PROJECT_DIR$/source/vendor/symfony/console/Tests/Fixtures/application_renderexception1.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/vendor/symfony/console/Tests/Fixtures/application_renderexception2.txt" afterPath="$PROJECT_DIR$/source/vendor/symfony/console/Tests/Fixtures/application_renderexception2.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/vendor/symfony/console/Tests/Fixtures/application_renderexception3.txt" afterPath="$PROJECT_DIR$/source/vendor/symfony/console/Tests/Fixtures/application_renderexception3.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/vendor/symfony/console/Tests/Fixtures/application_renderexception3decorated.txt" afterPath="$PROJECT_DIR$/source/vendor/symfony/console/Tests/Fixtures/application_renderexception3decorated.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/vendor/symfony/console/Tests/Fixtures/application_renderexception4.txt" afterPath="$PROJECT_DIR$/source/vendor/symfony/console/Tests/Fixtures/application_renderexception4.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/vendor/symfony/console/Tests/Fixtures/application_renderexception_doublewidth1.txt" afterPath="$PROJECT_DIR$/source/vendor/symfony/console/Tests/Fixtures/application_renderexception_doublewidth1.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/vendor/symfony/console/Tests/Fixtures/application_renderexception_doublewidth1decorated.txt" afterPath="$PROJECT_DIR$/source/vendor/symfony/console/Tests/Fixtures/application_renderexception_doublewidth1decorated.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/vendor/symfony/console/Tests/Fixtures/application_renderexception_doublewidth2.txt" afterPath="$PROJECT_DIR$/source/vendor/symfony/console/Tests/Fixtures/application_renderexception_doublewidth2.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/vendor/phpspec/phpspec/appveyor.yml" afterPath="$PROJECT_DIR$/source/vendor/phpspec/phpspec/appveyor.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/vendor/autoload.php" afterPath="$PROJECT_DIR$/source/vendor/autoload.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/vendor/composer/autoload_classmap.php" afterPath="$PROJECT_DIR$/source/vendor/composer/autoload_classmap.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/vendor/composer/autoload_files.php" afterPath="$PROJECT_DIR$/source/vendor/composer/autoload_files.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/vendor/composer/autoload_real.php" afterPath="$PROJECT_DIR$/source/vendor/composer/autoload_real.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/vendor/phpspec/phpspec/behat.yml.dist" afterPath="$PROJECT_DIR$/source/vendor/phpspec/phpspec/behat.yml.dist" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/vendor/symfony/polyfill-php56/bootstrap.php" afterPath="$PROJECT_DIR$/source/vendor/symfony/polyfill-php56/bootstrap.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/vendor/laravel/framework/composer.json" afterPath="$PROJECT_DIR$/source/vendor/laravel/framework/composer.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/vendor/league/flysystem/composer.json" afterPath="$PROJECT_DIR$/source/vendor/league/flysystem/composer.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/vendor/mtdowling/cron-expression/composer.json" afterPath="$PROJECT_DIR$/source/vendor/mtdowling/cron-expression/composer.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/vendor/symfony/polyfill-php56/composer.json" afterPath="$PROJECT_DIR$/source/vendor/symfony/polyfill-php56/composer.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/vendor/symfony/polyfill-util/composer.json" afterPath="$PROJECT_DIR$/source/vendor/symfony/polyfill-util/composer.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/composer.lock" afterPath="$PROJECT_DIR$/source/composer.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/vendor/phpspec/phpspec/features/code_generation/developer_generates_method.feature" afterPath="$PROJECT_DIR$/source/vendor/phpspec/phpspec/features/code_generation/developer_generates_method.feature" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php" afterPath="$PROJECT_DIR$/source/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/vendor/laravel/framework/src/Illuminate/Support/helpers.php" afterPath="$PROJECT_DIR$/source/vendor/laravel/framework/src/Illuminate/Support/helpers.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/public/index.php" afterPath="$PROJECT_DIR$/source/public/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/vendor/composer/installed.json" afterPath="$PROJECT_DIR$/source/vendor/composer/installed.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/vendor/bin/phpspec" afterPath="$PROJECT_DIR$/source/vendor/bin/phpspec" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/vendor/phpspec/phpspec/bin/phpspec" afterPath="$PROJECT_DIR$/source/vendor/phpspec/phpspec/bin/phpspec" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/vendor/paragonie/random_compat/lib/random.php" afterPath="$PROJECT_DIR$/source/vendor/paragonie/random_compat/lib/random.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/vendor/laravel/framework/readme.md" afterPath="$PROJECT_DIR$/source/vendor/laravel/framework/readme.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/app/Http/routes.php" afterPath="$PROJECT_DIR$/source/app/Http/routes.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/app/Http/Routes/test.php" afterPath="$PROJECT_DIR$/source/app/Http/Routes/test.php" />
+    </list>
+    <ignored path="laravel-source.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <ignored path=".idea/dataSources.local.xml" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="laravel-source" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="RouteServiceProvider.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/source/app/Providers/RouteServiceProvider.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-18.571428">
+              <caret line="44" column="5" selection-start-line="44" selection-start-column="5" selection-end-line="44" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="testRoutes.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/source/app/Http/testRoutes.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-0.0">
+              <caret line="0" column="5" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="EventServiceProvider.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/source/app/Providers/EventServiceProvider.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-22.285715">
+              <caret line="31" column="5" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Inspire.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/source/app/Console/Commands/Inspire.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-12.6285715">
+              <caret line="24" column="35" selection-start-line="0" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Kernel.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/source/app/Console/Kernel.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-16.342857">
+              <caret line="27" column="28" selection-start-line="27" selection-start-column="21" selection-end-line="27" selection-end-column="28" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Schedule.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/source/vendor/laravel/framework/src/Illuminate/Console/Scheduling/Schedule.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-1.5595238">
+              <caret line="74" column="40" selection-start-line="74" selection-start-column="40" selection-end-line="74" selection-end-column="40" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Event.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/source/app/Events/Event.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Handler.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/source/app/Exceptions/Handler.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.6875">
+              <caret line="50" column="0" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/source/app/Providers/RouteServiceProvider.php" />
+        <option value="$PROJECT_DIR$/source/app/Http/testRoutes.php" />
+        <option value="$PROJECT_DIR$/source/app/Console/Commands/Custom.php" />
+        <option value="$PROJECT_DIR$/source/app/Console/Kernel.php" />
+        <option value="$PROJECT_DIR$/source/app/Exceptions/Handler.php" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+  </component>
+  <component name="NamedScopeManager">
+    <order />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-9" />
+    <option name="y" value="-9" />
+    <option name="width" value="1938" />
+    <option name="height" value="1050" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="laravel-source" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="laravel-source" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="laravel-source" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="laravel-source" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="laravel-source" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="source" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="laravel-source" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="laravel-source" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="source" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="laravel-source" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="laravel-source" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="source" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Exceptions" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="laravel-source" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="laravel-source" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="source" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Events" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="laravel-source" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="laravel-source" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="source" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Console" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="laravel-source" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="laravel-source" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="source" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Console" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Commands" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scratches" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="options.lastSelected" value="reference.webide.settings.project.settings.php.behat" />
+    <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="File.Encoding" />
+    <property name="settings.editor.splitter.proportion" value="0.2" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../DesignPatternsPHP" />
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpBehatConfigurationType" factoryName="Behat">
+      <BehatRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <method />
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5fb6caf8-2301-46c5-ad76-be63c19f2332" name="Default" comment="" />
+      <created>1451540982489</created>
+      <option name="number" value="Default" />
+      <updated>1451540982489</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-9" y="-9" width="1938" height="1050" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2529412" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32925472" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32925472" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/source/app/Providers/RouteServiceProvider.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-18.571428">
+          <caret line="44" column="5" selection-start-line="44" selection-start-column="5" selection-end-line="44" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/app/Http/testRoutes.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="5" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/app/Providers/EventServiceProvider.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-22.285715">
+          <caret line="31" column="5" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/app/Console/Commands/Inspire.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-12.6285715">
+          <caret line="24" column="35" selection-start-line="0" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/app/Console/Kernel.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-16.342857">
+          <caret line="27" column="28" selection-start-line="27" selection-start-column="21" selection-end-line="27" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/vendor/symfony/process/PhpExecutableFinder.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.34735578">
+          <caret line="23" column="20" selection-start-line="23" selection-start-column="20" selection-end-line="23" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/vendor/symfony/process/ProcessUtils.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.28125">
+          <caret line="16" column="46" selection-start-line="16" selection-start-column="46" selection-end-line="16" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/app/Console/Commands/Custom.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.65625">
+          <caret line="28" column="28" selection-start-line="28" selection-start-column="28" selection-end-line="28" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/vendor/laravel/framework/src/Illuminate/Console/Scheduling/Schedule.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.5595238">
+          <caret line="74" column="40" selection-start-line="74" selection-start-column="40" selection-end-line="74" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/app/Events/Event.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/app/Exceptions/Handler.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6875">
+          <caret line="50" column="0" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

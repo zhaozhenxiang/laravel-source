@@ -62,7 +62,7 @@ if (! function_exists('array_collapse')) {
     /**
      * Collapse an array of arrays into a single array.
      *
-     * @param  array|\ArrayAccess  $array
+     * @param  \ArrayAccess|array  $array
      * @return array
      */
     function array_collapse($array)
@@ -449,7 +449,7 @@ if (! function_exists('dd')) {
             (new Dumper)->dump($x);
         }, func_get_args());
 
-//        die(1);
+        die(1);
     }
 }
 

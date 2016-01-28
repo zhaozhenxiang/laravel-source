@@ -49,7 +49,6 @@ class Handler extends ExceptionHandler
             return response(\Illuminate\Support\Facades\File::get(public_path('static/v1/images/404.png')), 404, ['Content-type' => 'image/png']);
         }
 
-
         return parent::render($request, $e);
     }
 }

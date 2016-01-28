@@ -78,3 +78,13 @@ $route->get('insert', function(){
 //    dd($a->insert(['path' => 'test', 'content' => 'test']));
     dd(\App\Cached::insert(['path' => 'test1', 'content' => 'test1']));
 });
+
+$route->get('facade', function(\Request $request) {
+    dd($request::input('get'));
+    dd($request->input('get'));
+});
+Route::group([], function(){
+    Route::get('87', function(){
+        dd(__LINE__);
+    });
+});
